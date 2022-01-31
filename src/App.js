@@ -10,7 +10,7 @@ import NewUser from "./pages/newUser/NewUser";
 
 function App() {
   return (
-  <Router>
+  <Router basename={'/react_test'}>
     <Topbar/>
     <div className='container'>
       <Sidebar/>
