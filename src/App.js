@@ -10,15 +10,15 @@ import NewUser from "./pages/newUser/NewUser";
 
 function App() {
   return (
-  <Router basename={'/react_test'}>
+  <Router>
     <Topbar/>
     <div className='container'>
       <Sidebar/>
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route path="/users" element={<UserList />}></Route>
-        <Route path="/user/:userId" element={<User />}></Route>
-        <Route path="/newUser" element={<NewUser />}></Route>
+        <Route path="/react_test" element={<Home />}></Route>
+        <Route path="/react_test/users" element={<UserList />}></Route>
+        <Route path="/react_test/user/:userId" element={<User />}></Route>
+        <Route path="/react_test/newUser" element={<NewUser />}></Route>
       </Routes>
     </div>
   </Router>
