@@ -2,7 +2,7 @@
   "name": "test2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uhwang3.github.io/react_test",
+  "homepage": "https://uhwang3.github.io/react_test/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/data-grid": "^4.0.0-alpha.37",
