@@ -15,7 +15,7 @@ function App() {
     <div className='container'>
       <Sidebar/>
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/users" element={<UserList />}></Route>
         <Route path="/user/:userId" element={<User />}></Route>
         <Route path="/newUser" element={<NewUser />}></Route>
